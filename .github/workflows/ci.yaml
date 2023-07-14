@@ -14,7 +14,7 @@ on:  # yamllint disable-line rule:truthy
   push:
   pull_request:
   schedule:
-    - cron: '*15 * * * *'
+    - cron: '*/15 * * * *'
 
 env:
   # Values can be overriden by repository variables.
